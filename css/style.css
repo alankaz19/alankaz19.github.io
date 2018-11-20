@@ -93,7 +93,12 @@ h4{
 }
 
 p{
-    line-height: 1.6em
+    line-height: 1.6em;
+    padding: 0px 10px 0px 10px;
+    text-align: left;
+    font-size: 18px;
+    text-indent: 36px;
+
 }
 
 
@@ -162,8 +167,8 @@ p{
     width: 250px;
     border-radius: 5%;
     border: 5px solid grey;
-    -webkit-filter: grayscale(50%); 
-    filter: grayscale(50%);
+    -webkit-filter: grayscale(40%); 
+    filter: grayscale(40%);
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.651);
 }
 
@@ -184,14 +189,13 @@ p{
 }
 
 .about{
-    margin: 0 auto;
-    max-width: 700px;
-}
-
-.about{
+    margin: 4em auto;
+    max-width: 750px;
     border-bottom: 1.5px solid #dfcbad;
     box-sizing: border-box;
+    padding-bottom: 3em;
 }
+
 
 .about h2{
     margin-top: 2em;
@@ -199,12 +203,14 @@ p{
     line-height: 80px;
 }
 .about p{
-    margin: 2em auto;
+    margin: 2em 0 4em 0;
+
 }
 
 .skill{
     max-width: 1100px;
-    margin: 2em auto;
+    margin: 4em auto;
+    padding-bottom: 3em;
    
 }
 
@@ -223,24 +229,32 @@ p{
     border-radius: 6%;
     text-align: center;
     padding-top: 15px;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .skill h4{
     text-align: left;
 }
 
+.experiences{
+    margin: 2em auto;
+    padding-bottom: 1em;
+
+}
+
+.experiences h2{
+    margin-bottom: 4em;
+}
 
 .exp{
     max-width: 700px;
-    height: 140px;
     text-align: center;
     background-color: #5B4A4F;
     margin: 3em auto;
     box-shadow: 8px 8px 2em rgba(0, 0, 0, 0.6);
     color:  #dfcbad;
     border-radius: 1%;
-    padding-top: 12px;
+    padding: 15px 15px;
     font-size: 18px;   
     letter-spacing: 0.1em;
     font-weight: 400;
